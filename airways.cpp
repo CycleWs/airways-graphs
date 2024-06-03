@@ -182,7 +182,7 @@ public:
         // Fechar o arquivo
         dotFile.close();
 
-        cout << "Arquivo " << filename << " gerado com sucesso." << endl;
+        //cout << "Arquivo " << filename << " gerado com sucesso." << endl;
     }
 
     void generateDotFileWithPath(const Graph& graph, const vector<int>& shortestPath, const string& filename) {

@@ -16,101 +16,40 @@
 
 ---
 
-<p align="center"> Projeto para matéria de Algoritmos em Grafos
-    <br> 
+
+### Pré-requisitos
+
+É necessário que você rode este código no Visual Studio Code e tenha a seguinte extensão instalada:
+
+```
+Graphviz Interactive Preview 
+  
+by tintinweb
+```
+## 🧐 Sobre <a name = "about"></a>
+
+O programa se trata de um sistema de Vias áereas que seleciona o melhor caminho entre uma cidade e outra evitando passar em cidades onde há mau tempo ou tenha um custo muito caro!
+
+Ao rodar o programa, ele irá selecionar 9 estados aleatóriamente que terão mau tempo e que tem maior gasto de ida, então gerará um arquivo .DOT que será interpretado pela extensão GRAPHVIZ e gerará uma imagem de todos os caminhos com seus custos.
+
+<img width=300px height=400px src="./ilustrativeIMGS/ILUSTRATIVEIMG2.png"></a>
 </p>
-<p align="center"> ### NECESSÁRIO O USO DA EXTENSÃO "GRAPHVIZ INTERACTIVE PREVIEW" no VSCODE ###
+
+Em seguida pede a você que escolha o estado de origem e destino, então será gerado outro arquivo destacando qual o melhor caminho a ser percorrido com menor gasto e evitando o mau tempo.
+
+<img width=350px height=390px src="./ilustrativeIMGS/ILUSTRATIVEIMG1.png" alt="Project logo"></a>
+</p>
+<img width=300px height=400px src="./ilustrativeIMGS/ILUSTRATIVEIMG3.png"></a>
 </p>
 
-<!-- ## 📝 Table of Contents
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement) -->
 
-<!-- ## 🧐 About <a name = "about"></a>
+## ⛏️ Ferramentas Utilizadas <a name = "built_using"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+- [C++](https://learn.microsoft.com/pt-br/cpp/cpp/?view=msvc-170) - Linguagem base
+- [Graphviz interactive preview](https://github.com/tintinweb/vscode-interactive-graphviz/releases) - Extensão utilizada
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+## ✍️ Autores <a name = "authors"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
-
-## ⛏️ Built Using <a name = "built_using"></a>
-
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
-
-## ✍️ Authors <a name = "authors"></a>
-
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References -->
+- [@Fernando Manfrim](https://github.com/FernandoMMattos) 
+- [@João Henrique](https://github.com/CycleWs)
