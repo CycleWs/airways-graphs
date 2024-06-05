@@ -28,14 +28,14 @@ by tintinweb
 ```
 ## 🧐 Sobre <a name = "about"></a>
 
-O programa se trata de um sistema de Vias áereas que seleciona o melhor caminho entre uma cidade e outra evitando passar em cidades onde há mau tempo ou tenha um custo muito caro!
+O programa se trata de um sistema de vias áereas que seleciona o melhor caminho entre uma cidade e outra evitando passar em cidades onde há mau tempo ou tenha um custo muito caro!
 
-Ao rodar o programa, ele irá selecionar 9 estados aleatóriamente que terão mau tempo e que tem maior gasto de ida, então gerará um arquivo .DOT que será interpretado pela extensão GRAPHVIZ e gerará uma imagem de todos os caminhos com seus custos.
+Ao rodar o programa, ele irá selecionar 9 estados aleatóriamente que terão mau tempo e o custo de cada, então será criado um arquivo .DOT que será interpretado pela extensão GRAPHVIZ e irá mostrar uma imagem de todos os caminhos com seus respectivos custos.
 
 <img width=300px height=400px src="./ilustrativeIMGS/ILUSTRATIVEIMG2.png"></a>
 </p>
 
-Em seguida pede a você que escolha o estado de origem e destino, então será gerado outro arquivo destacando qual o melhor caminho a ser percorrido com menor gasto e evitando o mau tempo.
+Em seguida o programa pede que você escolha o estado de origem e destino, então será gerado outro arquivo destacando qual o melhor caminho a ser percorrido com menor gasto e evitando o mau tempo.
 
 <img width=350px height=390px src="./ilustrativeIMGS/ILUSTRATIVEIMG1.png" alt="Project logo"></a>
 </p>
@@ -51,5 +51,5 @@ Em seguida pede a você que escolha o estado de origem e destino, então será g
 
 ## ✍️ Autores <a name = "authors"></a>
 
-- [@Fernando Manfrim](https://github.com/FernandoMMattos) 
+- [@Fernando Manfrin](https://github.com/FernandoMMattos) 
 - [@João Henrique](https://github.com/CycleWs)

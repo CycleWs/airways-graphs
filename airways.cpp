@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 #include <fstream>
 
-
 using namespace std;
 
 // Estrutura para representar uma aresta
@@ -139,7 +138,6 @@ public:
             cout << itr ->first << " : " << itr->second << endl;
         }
 
-        
         cout << "Vertices com mau tempo:";
         for (int vertex : vertices_com_mau_tempo) {
             cout << " " << vertex;
@@ -258,8 +256,6 @@ private:
         }
     }
 };
-
-
 
 int main() {
     // Inicializando a semente para geração de números aleatórios
